@@ -1,0 +1,119 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<div class="header">
+    <div class="header-wrap">
+        <div class="logo">
+            <img class="logo-mobile" src="185-gsu_logo_w.png" alt="">
+            <img class="logo-full" src="185-185-bookstore_logo.png" alt="">
+            <img class="logo-full" src="185-GSUlogo.png" alt="">
+        </div>
+        <div class="mini-menu">
+            <ul>
+                <li>Store Hours</li>
+                <li>Gift Cards</li>
+                <li>Wish List</li>
+                <li>My Account</li>
+                <li>My Cart</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<nav>
+    <ul>
+        <li>Apparel</li>
+        <li>Gifts</li>
+        <li>Textbooks</li>
+        <li>Supplies</li>
+        <li>Customer Service</li>
+        <li>Catalog</li>
+        <li>Search</li>
+    </ul>
+</nav>
+
+<style>
+    body {
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .header {
+        background-color: #041E42;
+    }
+
+    .header-wrap {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .logo>img {
+        max-height: 90px;
+    }
+
+    .logo>img.logo-mobile {
+        display: none;
+    }
+
+    .mini-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .mini-menu>ul {
+        display: flex;
+        color: #fff;
+        list-style-type: none;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .mini-menu>ul>li {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    @media screen and (max-width: 896px) {
+        .header-wrap {
+            justify-content: center;
+        }
+        .logo {
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+        .logo>img.logo-mobile {
+            display: flex;
+        }
+        .logo-full {
+            display: none;
+        }
+    }
+    @media (min-width: 200px) and (max-width: 300px) {
+        .mini-menu>ul>li {
+            font-size: 12px;
+        }
+    }
+    
+    nav {
+        background-color: #A99260;
+        color: #041E42;
+        padding: 0 15px;
+    }
+    nav > ul {
+        display: flex;
+        max-width: 1200px;
+        list-style-type: none;
+        justify-content: space-between;
+        padding-left: 0px;
+        margin: auto;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+</style>
