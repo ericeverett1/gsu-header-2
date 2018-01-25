@@ -28,7 +28,7 @@ Body - not related to megamenu
     }
 
     a {
-        color: #333;
+        color: #041E42;
     }
 
     .description {
@@ -44,10 +44,14 @@ megamenu.js STYLE STARTS HERE
 Screen style's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+    .menu-wrapper {
+        background: #A99260;
+    }
+
     .menu-container {
         width: 80%;
         margin: 0 auto;
-        background: #e9e9e9;
+        background: #A99260;
     }
 
     .menu-mobile {
@@ -80,7 +84,7 @@ Screen style's
 
     .menu>ul {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         margin: 0 auto;
         width: 100%;
         list-style: none;
@@ -103,14 +107,14 @@ Screen style's
 
     .menu>ul>li {
         float: left;
-        background: #e9e9e9;
+        background: #A99260;
         padding: 0;
         margin: 0;
     }
 
     .menu>ul>li a {
         text-decoration: none;
-        padding: 1.5em 3em;
+        padding: 0.3em 3em;
         display: block;
     }
 
@@ -205,6 +209,7 @@ Screen style's
         padding: 1em 0;
     }
 
+
     /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Mobile style's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -267,7 +272,7 @@ Mobile style's
     }
 
     .header-wrap {
-        max-width: 1200px;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         margin: auto;
@@ -304,6 +309,7 @@ Mobile style's
     @media screen and (max-width: 896px) {
         .header-wrap {
             justify-content: center;
+            width: 100%;
         }
         .logo {
             width: 100%;
@@ -344,135 +350,138 @@ Mobile style's
         </div>
     </div>
 </div>
-<div class="menu-container">
-    <div class="menu">
-        <ul>
-            <li><a href="#">Apparel</a>
-                <ul>
-                    <li><a href="#">Mens</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16395">Tees, Tanks, &amp; Jerseys</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16347">Polos &amp; Button Downs</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16332">Fleece &amp; Sweaters</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16349">Sleepwear</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16344">Pants &amp; Shorts</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16336">Headwear</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16340">Outerwear</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16263">Accessories</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Women</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16389">Tees, Tanks, &amp; Jerseys</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16381">Polos &amp; Button Downs</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16373">Fleece &amp; Sweaters</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16388">Sleepwear</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16383">Pants, Shorts, &amp; Leggings</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16377">Outerwear</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16376">Headwear</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16372">Accessories</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">U-TIQUE</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16368">Women's Top</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16388">Sleepwear</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16365">Accessories</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Children</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16278">Infant</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16280">Toddler</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16281">Youth</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16276">Cheer &amp; Jerseys</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16275">Children's Accessories</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16279">Child Sleepwear</a></li>
-                        </ul>
-                    </li>
-                    <li><img alt="" class="menu-img" src="http://gsustore.com/SiteImages/185-SchoolImages/185-Menu%20Images/185-250X250apparel.jpg" /></li>
-                </ul>
-            </li>
-            <li><a href="#">Gifts</a>
-                <ul>
-                    <li><a href="#">Gifts</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16289">Eagles Activities</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16288">Drinkware</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16303">Home &amp; Office Decor</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16318">Pet Acessories</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16286">Blankets, Towels, &amp; Pillows</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16324">Tailgating &amp; Gameday</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16310">Lawn &amp; Garden</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16319">Rain Gear</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">General Gifts</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16306">Jewelry &amp; Watches</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16330">Wallets &amp; Money Clips</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16321">Stationery &amp; Journals</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=17336">Holiday</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Auto</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16317">Decals</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16287">Car Flags</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16393">Tags &amp; Frames</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16309">Key Chains, Lanyards, &amp; Croakies</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16285">Auto Accessories</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Graduation</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16301">Diploma Frames</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16300">Commemorative</a></li>
-                            <li><a href="http://www.jostens.com/apps/store/productBrowse/1040878/Georgia-Southern-University/Uploma/724249009/CATALOG_REPOSITORY/#.VdyC3flVikp" target="_blank">Uploma</a></li>
-                            <li><a href="https://collegerings.herffjones.com/index.cfm?event=getCategories" target="_blank">Class Rings</a></li>
-                            <li><a href="https://touchnet.georgiasouthern.edu/C20795_ustores/web/store_cat.jsp?STOREID=4&amp;CATID=97&amp;SINGLESTORE=true" target="_blank">Announcements</a></li>
-                        </ul>
-                    </li>
-                    <li> <img alt="" class="menu-img" src="http://gsustore.com//SiteImages/185-SchoolImages/185-Menu%20Images/185-250X250gift.jpg" /></li>
-                </ul>
-            </li>
-            <li><a href="#">Textbooks</a>
-                <ul>
-                    <li><a href="#">Faculty</a>
-                        <ul>
-                            <li><a href="http://gsustore.com//FacultyAdoption/DefaultN.aspx">Book Adoptions</a></li>
-                            <li><a href="http://gsustore.com/SiteText.aspx?id=42150">FAQ's</a></li>
-                            <li><a href="http://gsustore.com/StoreFiles/185-SchoolFiles/185-AdoptionFormPDF.pdf" target="_blank">Adoption Form</a></li>
-                            <li><a href="http://www.facultycenter.net/fc_home.php" target="_blank">Faculty Center</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Student</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/SiteText.aspx?id=42151">Shop for Books</a></li>
-                            <li><a href="http://gsustore.com/SiteText.aspx?id=42038">Shopping Guide</a></li>
-                            <li><a href="http://gsustore.com/buyback.aspx">Textbook Buyback</a></li>
-                            <li><a href="http://gsustore.com/SiteText.aspx?id=42019">Textbook FAQ</a></li>
-                        </ul>
-                    </li>
-                    <li> <img alt="" class="img-responsive" src="http://gsustore.com/SiteImages/185-SchoolImages/185-Menu%20Images/185-250X250textbook.jpg" /></li>
-                </ul>
-            </li>
-            <li><a href="#">Supplies</a>
-                <ul>
-                    <li><a href="#">Supplies</a>
-                        <ul>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16359">General Supplies</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16362">Lab &amp; Engineering</a></li>
-                            <li><a href="http://gsustore.com/MerchList.aspx?ID=16354">Back Packs &amp; Bags</a></li>
-                        </ul>
-                    </li>
-                    <li> <img alt="" class="menu-img" src="http://gsustore.com/SiteImages/185-SchoolImages/185-Menu%20Images/185-250x250supplies.jpg" /></li>
-                </ul>
-            </li>
-            <li><a href="#">Customer Service</a></li>
-            <li><a href="">Catalog</a></li>
-            <li><a href="">Search</a></li>
-        </ul>
+<div class="menu-wrapper">
+    <div class="menu-container">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Apparel</a>
+                    <ul>
+                        <li><a href="#">Mens</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16395">Tees, Tanks, &amp; Jerseys</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16347">Polos &amp; Button Downs</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16332">Fleece &amp; Sweaters</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16349">Sleepwear</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16344">Pants &amp; Shorts</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16336">Headwear</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16340">Outerwear</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16263">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Women</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16389">Tees, Tanks, &amp; Jerseys</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16381">Polos &amp; Button Downs</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16373">Fleece &amp; Sweaters</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16388">Sleepwear</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16383">Pants, Shorts, &amp; Leggings</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16377">Outerwear</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16376">Headwear</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16372">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">U-TIQUE</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16368">Women's Top</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16388">Sleepwear</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16365">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Children</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16278">Infant</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16280">Toddler</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16281">Youth</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16276">Cheer &amp; Jerseys</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16275">Children's Accessories</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16279">Child Sleepwear</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-img"><img alt="" src="http://gsustore.com/SiteImages/185-SchoolImages/185-Menu%20Images/185-250X250apparel.jpg" /></li>
+                    </ul>
+                </li>
+                <li><a href="#">Gifts</a>
+                    <ul>
+                        <li><a href="#">Gifts</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16289">Eagles Activities</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16288">Drinkware</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16303">Home &amp; Office Decor</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16318">Pet Acessories</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16286">Blankets, Towels, &amp; Pillows</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16324">Tailgating &amp; Gameday</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16310">Lawn &amp; Garden</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16319">Rain Gear</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">General Gifts</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16306">Jewelry &amp; Watches</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16330">Wallets &amp; Money Clips</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16321">Stationery &amp; Journals</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=17336">Holiday</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Auto</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16317">Decals</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16287">Car Flags</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16393">Tags &amp; Frames</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16309">Key Chains, Lanyards, &amp; Croakies</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16285">Auto Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Graduation</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16301">Diploma Frames</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16300">Commemorative</a></li>
+                                <li><a href="http://www.jostens.com/apps/store/productBrowse/1040878/Georgia-Southern-University/Uploma/724249009/CATALOG_REPOSITORY/#.VdyC3flVikp" target="_blank">Uploma</a></li>
+                                <li><a href="https://collegerings.herffjones.com/index.cfm?event=getCategories" target="_blank">Class Rings</a></li>
+                                <li><a href="https://touchnet.georgiasouthern.edu/C20795_ustores/web/store_cat.jsp?STOREID=4&amp;CATID=97&amp;SINGLESTORE=true" target="_blank">Announcements</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-img"> <img alt="" src="http://gsustore.com//SiteImages/185-SchoolImages/185-Menu%20Images/185-250X250gift.jpg" /></li>
+                    </ul>
+                </li>
+                <li><a href="#">Textbooks</a>
+                    <ul>
+                        <li><a href="#">Faculty</a>
+                            <ul>
+                                <li><a href="http://gsustore.com//FacultyAdoption/DefaultN.aspx">Book Adoptions</a></li>
+                                <li><a href="http://gsustore.com/SiteText.aspx?id=42150">FAQ's</a></li>
+                                <li><a href="http://gsustore.com/StoreFiles/185-SchoolFiles/185-AdoptionFormPDF.pdf" target="_blank">Adoption Form</a></li>
+                                <li><a href="http://www.facultycenter.net/fc_home.php" target="_blank">Faculty Center</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Student</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/SiteText.aspx?id=42151">Shop for Books</a></li>
+                                <li><a href="http://gsustore.com/SiteText.aspx?id=42038">Shopping Guide</a></li>
+                                <li><a href="http://gsustore.com/buyback.aspx">Textbook Buyback</a></li>
+                                <li><a href="http://gsustore.com/SiteText.aspx?id=42019">Textbook FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-img"><img alt="" src="http://gsustore.com/SiteImages/185-SchoolImages/185-Menu%20Images/185-250X250textbook.jpg" /></li>
+                    </ul>
+                </li>
+                <li><a href="#">Supplies</a>
+                    <ul>
+                        <li><a href="#">Supplies</a>
+                            <ul>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16359">General Supplies</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16362">Lab &amp; Engineering</a></li>
+                                <li><a href="http://gsustore.com/MerchList.aspx?ID=16354">Back Packs &amp; Bags</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-img"><img alt="" src="http://gsustore.com/SiteImages/185-SchoolImages/185-Menu%20Images/185-250x250supplies.jpg" /></li>
+                    </ul>
+                </li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">Catalog</a></li>
+                <li><a href="">Search</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <script>
@@ -487,7 +496,7 @@ Mobile style's
         $('.menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
         //Checks if drodown menu's li elements have anothere level (ul), if not the dropdown is shown as regular dropdown, not a mega menu (thanks Luka Kladaric)
 
-        $(".menu > ul").before("<a href=\"#\" class=\"menu-mobile\">Navigation</a>");
+        $(".menu > ul").before("<a href=\"#\" class=\"menu-mobile\">Menu</a>");
 
         //Adds menu-mobile class (for mobile toggle menu) before the normal menu
         //Mobile menu is hidden if width is more then 959px, but normal menu is displayed
@@ -496,7 +505,7 @@ Mobile style's
 
         $(".menu > ul > li").hover(function(e) {
             if ($(window).width() > 943) {
-                $(this).children("ul").stop(true, false).fadeToggle(150);
+                $(this).children("ul").stop(true, false).slideToggle("slow");
                 e.preventDefault();
             }
         });
@@ -504,7 +513,7 @@ Mobile style's
 
         $(".menu > ul > li").click(function() {
             if ($(window).width() <= 943) {
-                $(this).children("ul").fadeToggle(150);
+                $(this).children("ul").slideToggle("slow");
             }
         });
         //If width is less or equal to 943px dropdowns are displayed on click (thanks Aman Jain from stackoverflow)
